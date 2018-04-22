@@ -142,7 +142,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <BaseAddress>0x11000000</BaseAddress>
-      <ImportLibrary>..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>..\..\..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <Bscmake>
@@ -184,7 +184,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <BaseAddress>0x11000000</BaseAddress>
-      <ImportLibrary>..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>..\..\..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -225,7 +225,7 @@
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <BaseAddress>0x11000000</BaseAddress>
-      <ImportLibrary>..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>..\..\..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <Bscmake>
@@ -266,7 +266,7 @@
       <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <BaseAddress>0x11000000</BaseAddress>
-      <ImportLibrary>..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>..\..\..\out\$(Platform)\$(Configuration)\lib\$(TargetName).lib</ImportLibrary>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
