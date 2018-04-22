@@ -1,4 +1,4 @@
-DuiLib_vs2008.suo
+﻿DuiLib_vs2008.suo
 *.exp
 *.pdb
 *.idb
@@ -6,3 +6,5 @@ DuiLib_vs2008.suo
 各个Demo/半透明异形窗体demo/Desktop.v11.suo
 DuiLib/DuiLib.vcproj.REDRAIN-PC.Redrain.user
 *.ncb
+localstorage/
+*.localstorage
